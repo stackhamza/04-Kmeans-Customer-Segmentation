@@ -31,6 +31,11 @@ Groups customers into segments based on **annual income** and **spending score**
 4. Fit final `KMeans(k=4)`.
 5. Evaluate cluster quality with the silhouette score and visualize segments.
 
+
+## Jupyter Notebook
+
+`kmeans_clustering.ipynb` walks through the same project step-by-step with markdown explanations between cells, using 3,000 synthetic customers (vs. 400 in the .py script) — larger dataset, same model. Open it in Jupyter, VS Code, or directly on GitHub (renders automatically).
+
 ## Run it
 
 ```bash
@@ -43,6 +48,7 @@ python kmeans_clustering.py
 ```
 04-kmeans-customer-segmentation/
 ├── kmeans_clustering.py
+├── kmeans_clustering.ipynb      # Jupyter notebook version (larger dataset, step-by-step)
 ├── requirements.txt
 ├── README.md
 └── screenshots/
